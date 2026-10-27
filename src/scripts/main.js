@@ -15,5 +15,5 @@ const table = document.querySelector('table');
 
   element.textContent = row.cells[1].textContent;
 
-  row.cells[3].insertAdjacentElement('afterend', element);
+  row.cells[4].insertAdjacentElement('beforebegin', element);
 });
